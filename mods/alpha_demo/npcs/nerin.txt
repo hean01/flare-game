@@ -1,5 +1,6 @@
 name=Nerin, Bowyer
 level=4
+talker=true
 
 # shop info
 vendor=true
@@ -13,3 +14,21 @@ vox_intro=female_merchant_01.ogg
 vox_intro=female_merchant_02.ogg
 vox_intro=female_merchant_03.ogg
 vox_intro=female_merchant_04.ogg
+
+[dialog]
+topic=Gossip
+you=Hi Bower, those bows looks really good.
+him=Gday Adeventurer, the bows has a design that has been in my family since generations back. The bowstring is from the finest leather and would not expand nor break. The bow itself is made out of White Oak that do provide extra tension for a faster arrow.
+you=Oh, that sounds like a good bow.
+him=I am sorry, I get easilly carried away talking about my family bow design. The bows have not failed me once and I have been on many hunting travels over time. If you need one take a look in my workshop I have a few for sale.
+you=I will take look, goodbye.
+him=Yes do that, you will not be disappointed.
+
+[dialog]
+requires_status=fr_rilrak_search
+requires_not=fr_rilrak_defeated
+topic=Search for Rilrak
+him=You are searching for Rilrak the Goblin Leader?, Let me give you a tip i have lernt the hard way from when I have been out on my hunting trips up north. The deeper you get into the goblins camps you will find goblins which throw spears and cast spells so your best bet to survive is to keep distance using a ranged weapon.
+you=Thank you for the tip Nerin.
+him=That will cost you nothing, but take a look at my workshop for one of the better ranged weapons you can buy.
+you=I will do.

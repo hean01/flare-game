@@ -16,8 +16,47 @@ vox_intro=male_merchant_03.ogg
 vox_intro=male_merchant_04.ogg
 
 # chat info
-#talker=true
-#portrait=male11
+talker=true
+portrait=male11
 
-#[dialog]
-#him=Looking to buy something?
+[dialog]
+topic=Gossip
+requires_not=fr_kendrik_stories
+him=Greetings Adventurer, I see you are coming from south seeking adventure here up north?
+you=Yes you are right, who are you?
+him=I am Kendrik a wandering trader with alot of stories to tell.
+set_status=fr_kendrik_stories
+
+[dialog]
+topic=The Gems in shop
+you=What is the gems for, they seem to cost to much ?
+him=Buy those high quality gems and you can sell them for the same amount of gold you bought them for. It's easier to hide those small beauties from theifs then gold and you can safly store them in you stash while your out on your adventures.
+you=Good idea, i will keep that in mind.
+
+[dialog]
+requires_not=waypoint_ydrakka_pass
+topic=Goblin Warrens
+requires_status=fr_kendrik_stories
+him=The Goblin Warrens, under earth a great fortress there is. Wandering up north the main entrance in ruins you cannot miss.
+you=Do you know were that is?
+him=Yes, it is near Ygdrakka Pass.
+
+[dialog]
+topic=Earth, Fire and Ice
+requires_status=fr_kendrik_stories
+requires_not=lb_fire_password
+requires_not=lb_earth_password
+requires_not=lb_wind_password
+him=The gaurdians of Earth, Fire and Wind... hmm, I have forgot this one, it was about something with fight fire with earth...  or something like that.
+you=It's hard to remeber all stories, this was proabably not important.
+him=Yes, probably not.
+
+[dialog]
+topic=The Order
+requires_status=fr_kendrik_stories
+requires_not=ak_intro
+him=Yes the Order, they have shown a great interest in Goblin Warrens.
+you=Do you know why?
+him=Not really, but rumors are told it has to do with the plauge and the deep darkness within the Goblin Warrens. 
+you=Do you know who the member who passed through here is?
+him=No, just that his was named Guill.
