@@ -26,3 +26,22 @@ him=Yes, I have heard stories about him that was told when i was very young. Ril
 you=Near water you say?, for any known reason?
 him=Not what i know about.
 you=Thanks, any information about Rilrak is useful.
+
+[dialog]
+requires_status=fr_rilrak_search
+topic=Gossip
+group=gossip
+him=Greetings adventurer
+
+[dialog]
+requires_status=fr_rilrak_search
+requires_not=fr_rilrak_reward
+topic=Gossip
+group=gossip
+him=Good luck on your seach for Rilrak
+
+[dialog]
+requires_status=fr_rilrak_search
+topic=Gossip
+group=gossip
+him=Need a sword ? Take a look in my workshop
