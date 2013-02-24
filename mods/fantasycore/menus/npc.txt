@@ -1,0 +1,14 @@
+# Menu background, rgba
+background_color=0,0,0,208
+
+# Topic item text color, rgb
+topic_normal_color=208,208,208
+topic_hilight_color=255,255,255
+
+# Shop item text color
+vendor_normal_color=127,208,127
+vendor_hilight_color=160,255,160
+
+# Cancel item text color
+cancel_normal_color=211,153,89
+cancel_hilight_color=254,191,132
