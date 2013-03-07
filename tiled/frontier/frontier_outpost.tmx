@@ -362,5 +362,12 @@
     <property name="soundfx" value="soundfx/environment/raven_loop.ogg"/>
    </properties>
   </object>
+  <object name="Frontier Intro Cutscene" type="run_once" x="1408" y="1664" width="256" height="32">
+   <properties>
+    <property name="cutscene" value="fr_outpost_intro.txt"/>
+    <property name="requires_not" value="fr_outpost_intro_cutscene"/>
+    <property name="set_status" value="fr_outpost_intro_cutscene"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>

@@ -1,0 +1,9 @@
+[scene]
+caption=A real Adventurer, you wanted to be.
+pause=60
+caption=Left your home and traveled over sea.
+pause=60
+caption=Rumors and tales have been shared along the way.
+pause=60 
+caption=Finally, you reached the outpost were you should stay.
+pause=60

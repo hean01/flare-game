@@ -385,3 +385,11 @@ type=on_load
 location=11,43,1,1
 soundfx=soundfx/environment/raven_loop.ogg
 
+[event]
+# Frontier Intro Cutscene
+type=run_once
+location=44,52,8,1
+cutscene=fr_outpost_intro.txt
+requires_not=fr_outpost_intro_cutscene
+set_status=fr_outpost_intro_cutscene
+
